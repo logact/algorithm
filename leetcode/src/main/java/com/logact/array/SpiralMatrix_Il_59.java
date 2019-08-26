@@ -1,5 +1,8 @@
 package com.logact.array;
 
+/**
+ *
+ */
 public class SpiralMatrix_Il_59 {
     static class Solution {
         public int[][] generateMatrix(int n) {
