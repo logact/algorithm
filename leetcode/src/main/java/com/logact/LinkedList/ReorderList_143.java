@@ -19,7 +19,7 @@ public class ReorderList_143 {
                 p2=p2.next;
             }
             if(p2==p1)return;
-            if(p2==next)return;
+            if(p2==next)return;//想清楚极端情况。
             if(p3!=null)p3.next=null;
             p2.next=next;
             p1.next=p2;
