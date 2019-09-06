@@ -44,6 +44,7 @@ public class BeautifulArrangement2_667 {
                         if(set.size()==k){
                             continue;
                         }else{
+
                             set.add(v);
                             res[index]=i+1;
                             check[i]=true;
